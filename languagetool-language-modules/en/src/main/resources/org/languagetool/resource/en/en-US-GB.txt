@@ -2599,6 +2599,7 @@ metricized;metricised
 metricizes;metricises
 metricizing;metricising
 metrizable;metrisable
+metropolization;metropolisation
 metropolitanization;metropolitanisation
 metropolitanize;metropolitanise
 metropolitanizes;metropolitanises
@@ -4732,3 +4733,10 @@ color-coded;colour-coded
 labor-intensive;labour-intensive
 groyne;groin
 groynes;groins
+microbusses;microbuses
+hematemesis;haematemesis
+uncanceled;uncancelled
+corbeling;corbelling
+corbeled;corbelled
+armory;armoury
+armories;armouries

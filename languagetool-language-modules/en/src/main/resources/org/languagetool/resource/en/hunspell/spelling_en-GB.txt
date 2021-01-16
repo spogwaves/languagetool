@@ -6241,3 +6241,12 @@ labor-intensive
 carphone
 carphones
 non-rotating
+microbus
+microbuses
+haematemesis
+haematemeses
+uncancelled
+metropolisation
+metropolitanisation
+corbelling
+corbelled

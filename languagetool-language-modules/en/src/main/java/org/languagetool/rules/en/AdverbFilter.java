@@ -140,6 +140,7 @@ public class AdverbFilter extends RuleFilter {
     put("possibly", "possible");
     put("visually", "visual");
     put("predominantly", "predominant");
+    put("predominately", "predominant"); // special case
     put("quietly", "quiet");
     put("slightly", "slight");
     put("cleverly", "clever");
@@ -158,7 +159,7 @@ public class AdverbFilter extends RuleFilter {
     put("vicariously", "vicarious");
     put("vividly", "vivid");
     put("partially", "partial");
-    put("unduly", "undue");
+    // put("unduly", "undue");
     put("seriously", "serious");
     put("non-verbally", "non-verbal");
     put("nonverbally", "nonverbal");
@@ -387,6 +388,7 @@ public class AdverbFilter extends RuleFilter {
     put("honorably", "honorable");
     put("rudely", "rude");
     put("incorrectly", "incorrect");
+    put("correctly", "correct");
     put("mistakenly", "mistaken");
     put("wrongly", "wrong");
     put("morosely", "morose");
@@ -444,7 +446,27 @@ public class AdverbFilter extends RuleFilter {
     put("ethically", "ethical");
     put("noticeably", "noticeable");
     put("unnoticeably", "unnoticeable");
-
+    put("consequently", "consequent");
+    put("snugly", "snug");
+    put("mainly", "main");
+    put("popularly", "popular");
+    put("improperly", "improper");
+    put("deliverly", "delivery");
+    put("rushingly", "rushing");
+    put("gravitationally", "gravitational");
+    put("cruelly", "cruel");
+    put("optimally", "optimal");
+    put("fictionally", "fictional");
+    put("manageably", "manageable");
+    put("unmanageably", "unmanageable");
+    put("fashionably", "fashionable");
+    put("secondly", "second");
+    put("thirdly", "third");
+    put("curtly", "curt");
+    put("secretively", "secretive");
+    put("surprisingly", "surprising");
+    put("sociologically", "sociological");
+    put("severely", "severe");
     // TODO: add more or maybe use https://github.com/simplenlg/simplenlg?
     //put("", "");
   }};

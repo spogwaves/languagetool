@@ -1575,3 +1575,42 @@ Facebook Creator Studio	NNP
 Don Draper	NNP
 Audemars Piguet	NNP
 Schneider Electric	NNP
+magnifying glass	NN
+magnifying glasses	NNS
+Times Square	NNP
+Fyodor Dostoevsky	NNP
+Anton Chekhov	NNP
+Vladimir Nabokov	NNP
+Nikolai Gogol	NNP
+Boston Dynamics	NNP
+José Mourinho	NNP
+Pep Guardiola	NNP
+Zinedine Zidane	NNP
+Kweichow Moutai	NNP
+Abdel Fattah	NNP
+MidAmerican Energy	NNP
+Rahim Yar Khan	NNP
+Dera Ghazi Khan	NNP
+Wah Cantonment	NNP
+Mirpur Khas	NNP
+Dera Ismail Khan	NNP
+Mandi Bahauddin	NNP
+Tando Allahyar	NNP
+Tando Adam	NNP
+Kot Abdul Malik	NNP
+Branco River	NNP
+Rio Negro	NNP
+Batangas knife	NN
+Batangas knives	NNS
+Wayland the Smith	NNP
+Amazon AtoZ	NNP
+third worlder	NN
+third worlders	NNS
+Azad Kashmir	NNP
+succès fou	NN
+perpetuum mobile	NN
+kere perpetuum	NN
+keri perpetuum	NNS
+pooper scooper	NN
+pooper scoopers	NNS
+Vendée Globe	NNP

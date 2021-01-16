@@ -408,7 +408,8 @@ public class English extends Language implements AutoCloseable {
       case "WE_BE":                     return -1;
       case "A_LOT_OF_NN":               return -1;
       case "IT_VBZ":                    return -1;
-      case "ADVERB_WORD_ORDER":         return -1;  // less prio than PRP_PAST_PART
+      case "ADVERB_WORD_ORDER_10_TEMP": return 1;
+      case "ADVERB_WORD_ORDER":         return -1;  // less prio than PRP_PAST_PART //
       case "IT_IS_2":                   return -1;  // needs higher prio than BEEN_PART_AGREEMENT
       case "A_RB_NN":                   return -1;  // prefer other more specific rules (e.g. QUIET_QUITE, A_QUITE_WHILE)
       case "DT_RB_IN":                  return -1;  // prefer other more specific rules
@@ -457,6 +458,8 @@ public class English extends Language implements AutoCloseable {
       case "MORFOLOGIK_RULE_EN_NZ":     return -10;  // more specific rules (e.g. L2 rules) have priority
       case "MORFOLOGIK_RULE_EN_AU":     return -10;  // more specific rules (e.g. L2 rules) have priority
       case "TWO_CONNECTED_MODAL_VERBS": return -15;
+      case "WANT_TO_NN":                return -25; // prefer more specific rules that give a suggestion
+      case "QUESTION_WITHOUT_VERB":     return -25; // prefer more specific rules that give a suggestion
       case "SENTENCE_FRAGMENT":         return -50; // prefer other more important sentence start corrections.
       case "SENTENCE_FRAGMENT_SINGLE_WORDS": return -51;  // prefer other more important sentence start corrections.
       case "EN_REDUNDANCY_REPLACE":     return -510;  // style rules should always have the lowest priority.
